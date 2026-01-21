@@ -2,7 +2,7 @@
 import { registerUser } from "@/lib/auth_actions";
 import { useRouter } from "next/navigation";
 import { useActionState, useEffect, useState } from "react";
-import { toast } from "react-toastify";
+import toast from "react-hot-toast";
 import { Eye, EyeOff } from "lucide-react";
 
 const initialState = {

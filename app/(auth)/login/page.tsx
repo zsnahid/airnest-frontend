@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useActionState, useEffect, useState } from "react";
 import { signinUser } from "@/lib/auth_actions";
 import { useRouter } from "next/navigation";
-import { toast } from "react-toastify";
+import toast  from "react-hot-toast";
 import { Eye, EyeOff } from "lucide-react";
 
 const initialState = {
